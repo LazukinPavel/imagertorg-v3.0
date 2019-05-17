@@ -23,6 +23,12 @@
 	}
 }
 
+@media (max-width: 640px){
+	.navbar {
+	width: 40%;
+	}
+}
+
 @media (max-width: 767px) {
 	.header__bottom_wrapper {
 		justify-content: flex-end;

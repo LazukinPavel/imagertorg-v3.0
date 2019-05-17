@@ -17,10 +17,12 @@
 	height: 30px;
 	.menu__link, .menu__link-icon {
 		line-height: 30px;
+		justify-content: center;
 	}
 }
 
 .navbar {
+	width: 100%;
 	padding: 0;
 	.navbar-collapse {
 		height: auto;
@@ -43,7 +45,10 @@
 .menu__list {
 	display: flex;
 	height: 100%;
+	width: 100%;
 	li {
+		flex: 1;
+		flex-basis: auto;
 		padding: 0 10px;
 	}
 }
