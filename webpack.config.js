@@ -2,6 +2,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
+	devtool: 'source-map',
 	module: {
 		rules : [
 			{
@@ -20,13 +21,19 @@ module.exports = {
 			},
 			{
 				test: /\.scss$/,
-				use: [
-					"style-loader",
-					// MiniCssExtractPlugin.loader,
-					"css-loader",
-					"sass-loader"
-					// "postcss-loader"
-				]
+				use: [{
+	                loader: "style-loader", options: {
+	                    sourceMap: true
+	                }
+	            }, {
+	                loader: "css-loader", options: {
+	                    sourceMap: true
+	                }
+	            }, {
+	                loader: "sass-loader", options: {
+	                    sourceMap: true
+	                }
+            	}]
 			},
 			{
 				test: /\.(png|svg|jpg|gif)$/,
