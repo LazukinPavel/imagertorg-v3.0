@@ -46,6 +46,10 @@
 .top-menu_right {
 	.menu__list {
 		flex-direction: row;
+		.menu__item {
+			width: 6vw;
+			min-width: 35px
+		}
 	}
 	.menu__link-text {
     	// display: none;
@@ -72,7 +76,7 @@
 
 .header__top .menu__item{
 	background-color: $color-accent;
-	margin: auto 0;
+	// margin: auto 0;
 	&:hover {
 		background-color: #c90e0e;
 	}
@@ -82,6 +86,9 @@
 	color: $color-base;
 	font-family: Raleway;
 	font-size: .875rem;
+	img {
+		margin: auto;
+	}
 }
 
 	/* middle */
