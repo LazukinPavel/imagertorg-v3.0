@@ -71,11 +71,17 @@
 // 	}
 // }
 
-// @media (min-width: 769px){
-// 	.header__middle_wrapper {
-// 		justify-content: space-between;
-// 	}
-// }
+@media (min-width: 769px){
+	.header__top-wrapper {
+		nav {
+			flex: inherit;
+		}
+
+	}
+	.header__shop-info {
+		justify-content: space-between;
+	}
+}
 
 @media (min-width: 920px){
 	.footer__nav__column:first-child {

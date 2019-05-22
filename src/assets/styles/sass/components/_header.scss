@@ -37,16 +37,25 @@
 	    height: 100%;
 	    width: 100%;
 	    color: inherit;
-	    text-align: left;
+	    text-align: center;
 	}
 }
 
+.top-menu_left {
+	flex: 0.25;
+}
+
+
 .top-menu_right {
+	flex: 0.75;
+
 	.menu__list {
 		flex-direction: row;
 		.menu__item {
+			flex: 1;
+
 			width: 6vw;
-			min-width: 35px
+			min-width: 35px;
 		}
 	}
 	.menu__link-text {
@@ -59,7 +68,7 @@
 	height: 100%;
 	width: 100%;
 	li {
-		flex: 1;
+		// flex: 1;
 		flex-basis: auto;
 		padding: 0 10px;
 	}
@@ -74,7 +83,7 @@
 
 .header__top .menu__item{
 	background-color: $color-accent;
-	// margin: auto 0;
+	text-align: center;
 	&:hover {
 		background-color: #c90e0e;
 	}
@@ -123,10 +132,10 @@
 .header__shop-info {
 	display: flex;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: flex-end;	
 	padding-left: 2rem;
 	li {
-		// display: flex;
+		display: none;
 		span {
 			margin-left: 15px;
 		}
