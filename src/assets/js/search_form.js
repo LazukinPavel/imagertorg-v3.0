@@ -8,6 +8,7 @@ $(document).ready(function(){
 			var inputBox = $('.search__input');
 			var isOpen = false;
 			searchPopUp.click(function(){
+				console.log('click');
 				if(isOpen == false){
 					inputBox.addClass('search__input_opened');
 					inputBox.focus();
