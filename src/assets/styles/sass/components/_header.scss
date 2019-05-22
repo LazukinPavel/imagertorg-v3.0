@@ -4,6 +4,8 @@
 .header {
 	position: fixed;
 	width: 100%;
+	background: $color-base;
+	z-index: 100;
 }
 
 	/* top */
@@ -119,16 +121,24 @@
 }
 
 .header__shop-info {
-	display: none;
+	display: flex;
 	width: 100%;
 	justify-content: space-between;
 	padding-left: 2rem;
 	li {
-		display: flex;
+		// display: flex;
 		span {
 			margin-left: 15px;
 		}
 	}
+}
+
+.header__shop-desc-text {
+	display: block;
+}
+
+.header__address {
+	display: none;
 }
 
 .header__address-icon {
@@ -136,14 +146,16 @@
 }
 
 .header__schedule {
-	display: flex;
+	display: none;
 	// margin-right: 18px;
 }
 
-.header__schedule-text {
-	
-	text-align: right;
-	
+.header__schedule-text {	
+	text-align: right;	
+}
+
+.header__contacts {
+	display: none;
 }
 
 // 	/* bottom */
