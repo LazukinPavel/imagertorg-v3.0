@@ -45,10 +45,17 @@
 							<ul class="navbar-nav menu__list">
 								<li class="separator_vertical_small d-md-none"></li>
 								<li class="menu__item">
-							  		<a class="nav-item nav-link menu__link active" href="#">
+							  		<!-- <a class="nav-item nav-link menu__link active" href="#">
 							  			<img src="assets/img/icon-search.png" alt="search" class="search__icon">
-							  		</a>
-									
+							  		</a> -->
+									<form action="" class="search__form">
+										<input type="text" placeholder="Поиск" class="search__input search__input" onkeyup="buttonUp()">
+										<button type="submit" value="" class="search__submit">
+											<img src="assets/img/icon-search.png" alt="" class="search__icon">	
+										</button>
+										<span class="search__popup_invisible">
+										</span>
+									</form>
 							  	</li>
 							  	<li class="separator_vertical_small"></li>
 							  	<li class="menu__item">

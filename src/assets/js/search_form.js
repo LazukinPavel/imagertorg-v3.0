@@ -1,9 +1,7 @@
-import {$,jQuery} from 'jquery';
-window.$ = $;
-window.jQuery = jQuery;
+window.$ = window.jQuery = require('jquery');
 
 // search form
-$(document).ready(function(){
+$(document).ready(function($){
 			var searchPopUp = $('.search__popup_invisible');
 			var inputBox = $('.search__input');
 			var isOpen = false;
