@@ -18,6 +18,7 @@
 }
 
 .header__top-wrapper {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	height: 30px;
@@ -70,7 +71,15 @@
 	li {
 		// flex: 1;
 		flex-basis: auto;
-		padding: 0 10px;
+		
+	}
+}
+
+.top-menu_left {
+	.menu__list {
+		li {
+			padding: 0 10px;
+		}
 	}
 }
 

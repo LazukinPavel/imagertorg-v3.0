@@ -27,6 +27,11 @@
 	.header__middle_wrapper {
 		justify-content: center;
 	}
+	.menu__list {
+		li {
+			font-size: 0.75rem;
+		}
+	}
 }
 
 // @media (max-width: 767px) {
@@ -71,15 +76,20 @@
 // 	}
 // }
 
-@media (min-width: 769px){
+@media (min-width: 768px){
 	.header__top-wrapper {
 		nav {
 			flex: inherit;
 		}
-
 	}
 	.header__shop-info {
 		justify-content: space-between;
+	}
+	.search__input_opened {
+		width: 250px;
+	}
+	.search__form {
+		position: relative;
 	}
 }
 
