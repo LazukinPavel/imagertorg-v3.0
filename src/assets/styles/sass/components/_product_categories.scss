@@ -33,7 +33,7 @@
 	display: flex;
 	align-items: center;
 	padding: 20px;
-	height: 110px;
+	// height: 110px;
 }
 
 .category__icon {
@@ -46,11 +46,11 @@
 	display: none;
 	text-align: left;
 	font-family: Adamant;
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 	font-weight: 400;
 	color: $color-additional;
 	margin: 0;
-	padding-left: 12%;
+	padding-left: 5%;
 }
 
 .category__img {

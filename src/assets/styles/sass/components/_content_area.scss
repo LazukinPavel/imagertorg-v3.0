@@ -1,16 +1,12 @@
 .content-area {
-	margin-top: 160px;
+	margin-top: 130px;
+	background-color: $color-base;
 }
 
-// SIDEBAR
-.sidebar {
-	.sidebar__wrapper {
-		height: 100%;
-		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-	}	
-}
-
-
-// MAIN
 .main {
+
 }
+
+// [class*=”col-”] {
+// 	margin-bottom: 30px;
+// }
