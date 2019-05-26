@@ -72,7 +72,6 @@
 @media (min-width: 640px) and (max-width: 800px) {
 	.category__icon {
 		height: 40px;
-		width: 40px;
 	}
 	.category__title {
 		font-size: 1.0rem;
@@ -114,7 +113,6 @@
 @media (min-width: 801px) and (max-width: 991px) {
 	.category__icon {
 		height: 40px;
-		width: 40px;
 	}
 	.category__title {
 		font-size: 1.125rem;
@@ -124,10 +122,19 @@
 @media (min-width: 992px) and (max-width: 1160px) {
 	.category__icon {
 		height: 40px;
-		width: 40px;
 	}
 	.category__title {
 		font-size: 1.0rem;
 	}
 }
 
+@media (max-width: 1024px) {
+	.catalog-title__text {
+		font-size: .875rem;
+	}
+	.sidebar__catalog-title {
+		i {
+			line-height: .875rem !important;
+		}
+	}
+}

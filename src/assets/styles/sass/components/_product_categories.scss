@@ -37,7 +37,7 @@
 }
 
 .category__icon {
-	width: 50px;
+	width: auto;
 	height: 50px;
 	box-sizing: content-box;
 }
@@ -50,6 +50,7 @@
 	font-weight: 400;
 	color: $color-additional;
 	margin: 0;
+	padding-top: 3%;
 	padding-left: 5%;
 }
 

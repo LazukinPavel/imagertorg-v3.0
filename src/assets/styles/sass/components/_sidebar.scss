@@ -1,8 +1,34 @@
 .sidebar {
+	display: none;
+	font-family: Raleway;	
 
 	.sidebar__wrapper {
+		padding: 20px;
 		height: 100%;
 		box-shadow: 5px 2px 20px rgba(0, 0, 0, 0.1);
 		background-color: $color-base;
-	}	
+	}
+	
+	.sidebar__catalog-title {
+		display: flex;
+		justify-content: space-between;
+		font-family: Adamant;
+		font-size: 1.125rem;
+		color: $color-opposite;
+		text-transform: uppercase;
+		i {
+			line-height: 27px;
+			// margin: auto 0;
+		}
+	}
+
+	.sidebar__catalog-list {
+		margin-top: 15px;
+		li {
+			color: $color-additional;
+			border-bottom: 1px solid $color-opposite;
+			padding: 10px 0;
+		}
+	}
+
 }
