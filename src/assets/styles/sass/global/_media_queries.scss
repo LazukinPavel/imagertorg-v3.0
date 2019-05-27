@@ -128,13 +128,13 @@
 	}
 }
 
-@media (max-width: 1024px) {
-	.catalog-title__text {
-		font-size: .875rem;
+@media (max-width: 1279px) {
+	.block-title__text {
+		font-size: 1.0rem;
 	}
-	.sidebar__catalog-title {
+	.sidebar__block-title {
 		i {
-			line-height: .875rem !important;
+			line-height: 1.0rem !important;
 		}
 	}
 }
